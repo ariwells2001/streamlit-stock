@@ -1,4 +1,4 @@
-from asyncio.windows_events import NULL
+#from asyncio.windows_events import NULL
 import math
 import pandas_datareader as web
 import numpy as np
@@ -82,7 +82,7 @@ def training():
       os.mkdir(target_dir)
     model.save('./models/model.h5')
     model.save_weights('./models/weights.h5')
-    return NULL
+    return 0
 
 def validating():
     x_train,y_train,training_data_len,scaled_data,dataset,scaler,data = preprocessing()
