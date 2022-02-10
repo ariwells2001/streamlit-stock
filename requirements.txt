@@ -1,0 +1,13 @@
+bokeh
+pandas_datareader
+keras
+numpy
+pandas
+Pillow
+streamlit
+mysql-connector-python==8.0.26
+matplotlib
+scikit-learn
+seaborn
+pickle-mixin
+tensorflow-cpu
